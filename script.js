@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
     const password = document.querySelector('#password');
 
     // check the validity of the input fields before submission
-    if ( !name.checkValidity() || !email.checkValidity() || !password.checkValidity() || ) {
+    if ( !name.checkValidity() || !email.checkValidity() || !password.checkValidity() ) {
         alert('Please fill out all fields correctly.')
         return;
     }
